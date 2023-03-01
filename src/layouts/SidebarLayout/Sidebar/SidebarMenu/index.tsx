@@ -463,54 +463,14 @@ function SidebarMenu() {
             <List component="div">
               <ListItem component="div">
                 <Button
-                  className={currentRoute === '/status/404' ? 'active' : ''}
+                  className={currentRoute === '/error' ? 'active' : ''}
                   disableRipple
                   component="a"
                   onClick={closeSidebar}
-                  href="/status/404"
+                  href="/error"
                   startIcon={<CheckBoxTwoToneIcon />}
                 >
-                  Error 404
-                </Button>
-              </ListItem>
-              <ListItem component="div">
-                <Button
-                  className={currentRoute === '/status/500' ? 'active' : ''}
-                  disableRipple
-                  component="a"
-                  onClick={closeSidebar}
-                  href="/status/500"
-                  startIcon={<CameraFrontTwoToneIcon />}
-                >
-                  Error 500
-                </Button>
-              </ListItem>
-              <ListItem component="div">
-                <Button
-                  className={
-                    currentRoute === '/status/coming-soon' ? 'active' : ''
-                  }
-                  disableRipple
-                  component="a"
-                  onClick={closeSidebar}
-                  href="/status/coming-soon"
-                  startIcon={<ChromeReaderModeTwoToneIcon />}
-                >
-                  Coming Soon
-                </Button>
-              </ListItem>
-              <ListItem component="div">
-                <Button
-                  className={
-                    currentRoute === '/status/maintenance' ? 'active' : ''
-                  }
-                  disableRipple
-                  component="a"
-                  href="/status/maintenance"
-                  onClick={closeSidebar}
-                  startIcon={<WorkspacePremiumTwoToneIcon />}
-                >
-                  Maintenance
+                  Error page
                 </Button>
               </ListItem>
             </List>
