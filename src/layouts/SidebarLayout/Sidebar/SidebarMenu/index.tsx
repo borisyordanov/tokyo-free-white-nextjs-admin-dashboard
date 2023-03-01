@@ -467,6 +467,7 @@ function SidebarMenu() {
                   disableRipple
                   component="a"
                   onClick={closeSidebar}
+                  href="/status/404"
                   startIcon={<CheckBoxTwoToneIcon />}
                 >
                   Error 404
@@ -478,6 +479,7 @@ function SidebarMenu() {
                   disableRipple
                   component="a"
                   onClick={closeSidebar}
+                  href="/status/500"
                   startIcon={<CameraFrontTwoToneIcon />}
                 >
                   Error 500
@@ -491,6 +493,7 @@ function SidebarMenu() {
                   disableRipple
                   component="a"
                   onClick={closeSidebar}
+                  href="/status/coming-soon"
                   startIcon={<ChromeReaderModeTwoToneIcon />}
                 >
                   Coming Soon
@@ -503,6 +506,7 @@ function SidebarMenu() {
                   }
                   disableRipple
                   component="a"
+                  href="/status/maintenance"
                   onClick={closeSidebar}
                   startIcon={<WorkspacePremiumTwoToneIcon />}
                 >
